@@ -1,0 +1,14 @@
+langchain
+python-dotenv
+ipykernel
+langchain_groq
+langchain_google_genai
+langchain-perplexity
+langchain_openai
+pypdf
+faiss-cpu
+structlog
+PyMuPDF
+pandas
+PyYAML
+-e .

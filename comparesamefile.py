@@ -33,5 +33,4 @@ def test_compare_docuemnts():
     
 if __name__ == "__main__":
     test_compare_docuemnts()
-    s
     

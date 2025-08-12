@@ -32,6 +32,4 @@ def test_compare_docuemnts():
     print(comparison_df.to_string(index=False))
     
 if __name__ == "__main__":
-    test_compare_docuemnts()
-    s
-    
+    test_compare_docuemnts()    

@@ -7,8 +7,8 @@ def load_fake_uploaded_file(file_path:Path):
     return io.BytesIO(file_path.read_bytes())
 
 def test_compare_docuemnts():
-    ref_path = Path("data\\document_compare\\Long_Report_V1.pdf")
-    act_path = Path("data\\document_compare\\Long_Report_V2.pdf")
+    ref_path = Path("data\\document_compare\\file1.pdf")
+    act_path = Path("data\\document_compare\\file2.pdf")
     
     class FakeUpload:
         def __init__(self,file_path:Path):
